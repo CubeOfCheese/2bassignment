@@ -12,4 +12,25 @@ public class employeeRecord
     payRate = 0;
     hoursWorked = 0;
   }
+  public employeeRecord(String aFirstName, String aLastName)
+  {
+    firstName = aFirstName;
+    lastName = aLastName;
+    payRate = 0;
+    hoursWorked = 0;
+  }
+  public employeeRecord(String aFirstName, String aLastName, double aPayRate)
+  {
+    firstName = aFirstName;
+    lastName = aLastName;
+    payRate = aPayRate;
+    hoursWorked = 0;
+  }
+  public employeeRecord(String aFirstName, String aLastName, double aPayRate, double aHoursWorked)
+  {
+    firstName = aFirstName;
+    lastName = aLastName;
+    payRate = aPayRate;
+    hoursWorked = aHoursWorked;
+  }
 }
